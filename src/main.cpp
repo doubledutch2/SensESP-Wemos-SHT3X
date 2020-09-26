@@ -9,7 +9,7 @@
 #include "sensesp_app.h"
 #include "signalk/signalk_output.h"
 #include "sensors/sht31.h"
-#include "sensors/i2c_tools.h"
+#include "i2c_tools.h"
 
 ReactESP app([] () {
   #ifndef SERIAL_DEBUG_DISABLED
