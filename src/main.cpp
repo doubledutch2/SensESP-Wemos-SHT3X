@@ -24,7 +24,7 @@ ReactESP app([] () {
 
   // Create the SensESPApp with whatever "standard sensors" you want: noStdSensors, allStdSensors, or uptimeOnly.
   // The default is allStdSensors.
-  sensesp_app = new SensESPApp(noStdSensors);
+  sensesp_app = new SensESPApp("SensESP","","","",0,NONE);
 
   // Create a SHT31, which represents the physical sensor.
   // 0x44 is the default address. Some chips use 0x45, which is shown here.
